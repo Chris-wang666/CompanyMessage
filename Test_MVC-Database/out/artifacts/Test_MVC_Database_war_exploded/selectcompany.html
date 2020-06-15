@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select</title>
+    <link rel="stylesheet" href="Style1.css">
+    <script>
+        function GoBack() {
+            window.history.back(-1);
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="head">
+        <h1>&nbspWork1 : Company_Message</h1>
+    </div>
+</header>
+<main>
+    <div class="outer">
+        <form action="ciservlet" method="post" class="form_">
+            <input type="hidden" name="flag" value="4">
+            <h3>确认查询?</h3>
+            <label><input type="submit" name="button1" value="确定"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label><input type="button" name="button2" value="返回" onclick="GoBack()"></label>
+        </form>
+    </div>
+</main>
+<footer>
+    <p>Copyright by &copy20194651远航</p>
+</footer>
+</body>
+</html>

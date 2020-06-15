@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete</title>
+    <link rel="stylesheet" href="Style1.css">
+    <script>
+        function GoBack() {
+            window.history.back(-1);
+        }
+    </script>
+</head>
+<body>
+<header>
+    <div class="head">
+        <h1>&nbspWork1 : Company_Message</h1>
+    </div>
+</header>
+<main>
+    <div class="outer">
+        <form action="ciservlet" method="post" class="form_">
+            <input type="hidden" name="flag" value="2">
+            <label>请输入想要删除的id:<input type="text" name="id"></label><br><br>
+            <input type="submit" name="button" value="确定">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" name="button2" value="返回" onclick="GoBack()">
+        </form>
+    </div>
+</main>
+<footer>
+    <p>Copyright by &copy20194651远航</p>
+</footer>
+</body>
+</html>
